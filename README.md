@@ -8,8 +8,11 @@
 
 ## Current Modes
 
+- Keyboard Test
 - Word Test
 - Word Practice
+- Numberpad Test
+- Numberpad Practice
 
 ## Disclaimer
 

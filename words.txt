@@ -1041,8 +1041,6 @@ bonds
 bone
 bones
 bonus
-boob
-boobs
 book
 booking
 bookings
@@ -6007,9 +6005,6 @@ nikon
 nil
 nine
 nintendo
-nipple
-nipples
-nirvana
 nissan
 nitrogen
 nj
@@ -6827,7 +6822,6 @@ powerful
 powerpoint
 powers
 powerseller
-pp
 ppc
 ppm
 pr

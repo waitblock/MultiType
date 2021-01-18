@@ -9,6 +9,7 @@
 ## Current Modes
 
 - Word Test
+- Word Practice
 
 ## Disclaimer
 

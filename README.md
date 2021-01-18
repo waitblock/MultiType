@@ -16,4 +16,4 @@ Though I have tried my best to keep profane words out of the list of words in th
 
 <br>
 
-<sup>*The [keyboard icon](https://thenounproject.com/term/keyboard-and-mouse/207798/) in the MultiType logo was created by [Universal Logos](https://thenounproject.com/steepski/) as part of [The Noun Project](https://thenounproject.com/).*</sup>
+<sup>*The [keyboard and mouse icon](https://thenounproject.com/term/keyboard-and-mouse/207798/) in the MultiType logo was created by [Universal Logos](https://thenounproject.com/steepski/) as part of [The Noun Project](https://thenounproject.com/).*</sup>

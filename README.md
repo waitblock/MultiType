@@ -16,7 +16,7 @@
 
 ## Disclaimer
 
-Though I have tried my best to keep profane words out of the list of words in the 'words.txt' file, I may not have filtered out all of them. If you find a word that seems profane or inappropriate, please send me a pull request.
+Though I have tried my best to keep profane words out of the list of words in the 'words.txt' file, I may have missed a few. If you find a word that seems profane or inappropriate, please send me a pull request.
 
 <br>
 

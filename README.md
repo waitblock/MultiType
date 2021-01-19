@@ -6,6 +6,10 @@
 
 ### The multi-purpose typing program.
 
+## Running
+
+To run the program, go to your computer's terminal, and navigate your way to the program's directory (i.e. the directory which contains the 'main.py' file). Once you're there, type `python3 main.py`, or whatever command is used on your operating system to run a Python 3 file.
+
 ## Current Modes
 
 - Keyboard Test
@@ -13,6 +17,9 @@
 - Word Practice
 - Numberpad Test
 - Numberpad Practice
+- Random Strings Test
+- Random Strings Practice
+- Paragraph Practice
 
 ## Disclaimer
 

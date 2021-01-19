@@ -9,8 +9,12 @@ char_file = open("chars.txt", "r")
 chars = char_file.read().split("\n")
 char_file.close()
 
+para_file = open("paragraphs.txt", "r")
+paragraphs = para_file.read().split("\n")
+para_file.close()
+
 print("MultiType, the Multipurpose Typing Program")
-print("Press Control-C or 8 to quit.")
+print("Press Control-C or 9 to quit.")
 
 while True:
     try:
@@ -22,7 +26,8 @@ while True:
         print("5. Numberpad Practice")
         print("6. Random Strings Test")
         print("7. Random Strings Practice")
-        print("8. Exit")
+        print("8. Paragraph Practice")
+        print("9. Exit")
         
         option = input("Select an option: ")
 
@@ -212,8 +217,52 @@ while True:
             print("Time: "+str(total_time)+" sec")
             print("Words Typed Correctly: "+str(correct_words)+" words")
             print("Total Words Typed: "+str(total_words)+" words")
-        
+
         if option == "8":
+            on_start = input("Press the return key to start: ")
+
+            start_delay = 3
+
+            for i in range(start_delay):
+                print("Start typing in", str(start_delay)+"...")
+                time.sleep(1)
+                start_delay -= 1
+
+            print("Test started.")
+            
+            correct_words = 0
+            total_words = 0
+            para = paragraphs[random.randint(0, len(paragraphs)-1)]
+            print(para)
+            start_epoch = calendar.timegm(time.gmtime())
+            typed = input("Type what you see: ")
+            total_time = calendar.timegm(time.gmtime()) - start_epoch
+            para_words = para.split(" ")
+            typed_words = typed.split(" ")
+            for i in range(len(para_words)-len(typed_words)-1):
+                typed_words.append("á")
+
+            for i in range(len(typed_words)-1):
+                if typed_words[i] == para_words[i]:
+                    correct_words += 1
+                total_words += 1
+
+            master = Tk()
+            clipboard = master.clipboard_get()
+            master.withdraw()
+            adj_time = total_time/60
+            wpm = round(len(para_words)/adj_time, 2)
+            
+
+            if clipboard == para:
+                print("Control-C Detected!")
+            else:
+                print(str(wpm)+"WPM")
+                print("Score: "+str(correct_words)+"/"+str(total_words))
+                print("Time: "+str(total_time)+" seconds")
+
+            
+        if option == "9":
             break
         
     except KeyboardInterrupt:

@@ -2,6 +2,8 @@
   <img src="https://github.com/waitblock/MultiType/blob/main/logo.png" alt="logo" style="width: 100%; height: auto;">
 </p>
 
+[![Build status](https://ci.appveyor.com/api/projects/status/4jmdi27ep62fregd?svg=true)](https://ci.appveyor.com/project/waitblock/multitype)
+
 # MultiType
 
 ### The multi-purpose typing program.
